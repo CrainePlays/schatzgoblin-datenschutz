@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Datenschutzhinweis für Schatzgoblin</title>
+  <meta name="description" content="Datenschutzhinweis der App Schatzgoblin. Derselbe Text steht in der App unter Mein Bereich.">
+  <style>
+    :root {
+      color-scheme: light;
+      --tinte: #1c1915;
+      --gold: #8a6a2f;
+      --papier: #f7f3ea;
+      --karte: #fffdf8;
+      --linie: #e4d9c4;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Palatino Linotype", Palatino, serif;
+      color: var(--tinte);
+      background: var(--papier);
+      line-height: 1.55;
+    }
+    main {
+      max-width: 40rem;
+      margin: 0 auto;
+      padding: 2.5rem 1.25rem 4rem;
+    }
+    header {
+      border-bottom: 1px solid var(--linie);
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
+    }
+    h1 {
+      font-size: 1.75rem;
+      font-weight: normal;
+      line-height: 1.25;
+      margin: 0 0 0.4rem;
+    }
+    .stand {
+      margin: 0;
+      color: var(--gold);
+      font-family: "Segoe UI", sans-serif;
+      font-size: 0.9rem;
+    }
+    section {
+      background: var(--karte);
+      border: 1px solid var(--linie);
+      border-radius: 0.6rem;
+      padding: 0.9rem 1.1rem 1rem;
+      margin: 0 0 0.8rem;
+    }
+    h2 {
+      font-size: 1.05rem;
+      font-weight: normal;
+      color: var(--gold);
+      margin: 0 0 0.35rem;
+    }
+    p { margin: 0; }
+    footer {
+      margin-top: 1.4rem;
+      font-family: "Segoe UI", sans-serif;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Datenschutzhinweis für Schatzgoblin</h1>
+      <p class="stand">Stand: 9. Oktober 2026</p>
+    </header>
+
+    <section>
+      <h2>Auf dem Gerät</h2>
+      <p>Schatzgoblin hat kein Konto und keinen eigenen Server. Schatztruhe, eigene Punkte, Zeichnungen, Sondengänge und der OpenAI-Schlüssel bleiben auf diesem Gerät. Die Google-Sicherung nimmt den Schlüssel und die lokalen Datenbanken nicht mit. Deinstallieren löscht das. Export und Import sind eine Zip-Datei bei dir, höchstens 200 MB.</p>
+    </section>
+
+    <section>
+      <h2>Karten</h2>
+      <p>Die aktuelle Karte und das Luftbild kommen von der Bayerischen Vermessungsverwaltung. Der historische Atlas kommt von der Bayerischen Staatsbibliothek über bavarikon. Dafür verlässt der sichtbare Ausschnitt das Gerät.</p>
+    </section>
+
+    <section>
+      <h2>Suche</h2>
+      <p>Der Ortsname geht an Photon (komoot) und bei Bedarf an Nominatim (OpenStreetMap). Der Suchkreis geht an Overpass (OpenStreetMap) und an den Denkmal-Dienst des Freistaats Bayern. Römerstraßen und Römerorte liegen in der App und gehen für die Anzeige nicht ins Netz.</p>
+    </section>
+
+    <section>
+      <h2>Standort und Fußweg</h2>
+      <p>Der Sondengang nutzt den Standort auf dem Gerät. Für den Fußweg gehen Start und Ziel an routing.openstreetmap.de. Die Strecke rechnet danach das Programm.</p>
+    </section>
+
+    <section>
+      <h2>KI</h2>
+      <p>Nur mit deinem Schlüssel und nur nach Zustimmung. Dann gehen Atlas-Ausschnitte an api.openai.com: Wege, Gebäude und Beschriftung. Die heutige Karte und die Koordinaten gehen dabei nicht mit. Für Schatzgeschichten gehen Ortsname, Postleitzahl und Bayern mit. Fehlt die Postleitzahl im Namen, fragt die App sie mit dem Kartenpunkt bei Photon oder Nominatim ab. OpenAI darf für die Geschichten im Web suchen. Ohne Zustimmung geht dieser Schritt nicht raus. Der Schlüssel bleibt auf dem Gerät und dient nur als Ausweis gegenüber OpenAI.</p>
+    </section>
+
+    <section>
+      <h2>Teilen</h2>
+      <p>QR und Teilen erzeugen einen Link mit den Koordinaten des gespeicherten Punkts. Den öffnet ein anderes Programm. In Schatzgoblin ist keine Google-Karte.</p>
+    </section>
+
+    <section>
+      <h2>Was die App nicht tut</h2>
+      <p>Keine Werbung und kein Verkauf der Daten. PDF funktioniert ohne KI.</p>
+    </section>
+
+    <footer>
+      Derselbe Text steht in der App unter Mein Bereich, Datenschutz.
+    </footer>
+  </main>
+</body>
+</html>
